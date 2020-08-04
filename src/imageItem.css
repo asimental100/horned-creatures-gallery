@@ -1,0 +1,15 @@
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    border-bottom: solid black 1px;
+    list-style-type: none;
+    width: 300px;
+    text-transform: capitalize;
+}
