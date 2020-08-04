@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './imageList.css';
 import images from './data.js';
 import { ImageItem } from './imageItem.js';
 
@@ -9,7 +9,7 @@ export class ImageList extends React.Component {
             
             <ul className="image-list">
           {
-              images.map((creatue) => <ImageItem key={creatue.title} title={creatue.title} image={creatue.url} description={creatue.description} />)
+              images.map((creature) => <ImageItem key={creature.title} title={creature.title} image={creature.url} description={creature.description} />)
           }
             </ul>
         )
