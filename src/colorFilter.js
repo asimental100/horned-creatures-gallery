@@ -4,7 +4,7 @@ import { Options } from './options.js';
 import { ImageItem } from './imageItem.js';
 import './imageFilter.css';
 
-export class ImageFilter extends React.Component {
+export class ColorFilter extends React.Component {
     state = { selected: null };
   
     handleChange = (e) => {
@@ -16,14 +16,14 @@ export class ImageFilter extends React.Component {
 
         return (
             <div>
-                Pick A Horned Creature by <span className='bold'>Their Keyword</span> Below!
+                Pick A Horned Creature by <span className='bold'>Their Favorite Color</span> Below!
                 <select onChange={this.handleChange}>
-                        {images.map((creature) => <Options key={creature.title} title={creature.keyword} />)}
+                        {images.map((creature) => <Options key={creature.title} title={creature.favoriteColor} />)}
                 </select>
                 <ul>
                 {
                     images.filter(creature => {
-                        return creature.keyword === this.state.selected;
+                        return creature.favoriteColor === this.state.selected;
                     })
                         .map((creature) => <ImageItem key={creature.title} title={creature.title} image={creature.url} description={creature.description} />)      
                 }

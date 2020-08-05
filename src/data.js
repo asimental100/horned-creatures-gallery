@@ -5,7 +5,9 @@ const images = [
       title: "UniWhal",
       description: "A unicorn and a narwhal nuzzling their horns",
       keyword: "narwhal",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'blue',
+      favoriteFood: 'fish'
     },
     {
       url:
@@ -13,7 +15,9 @@ const images = [
       title: "Rhino Family",
       description: "Mother (or father) rhino with two babies",
       keyword: "rhino",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'grey',
+      favoriteFood: 'grass'
     },
     {
       url:
@@ -21,7 +25,9 @@ const images = [
       title: "Unicorn Head",
       description: "Someone wearing a creepy unicorn head mask",
       keyword: "unicorn",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'pink',
+      favoriteFood: 'chocolate'
     },
     {
       url:
@@ -29,7 +35,9 @@ const images = [
       title: "UniLego",
       description: "Lego figurine dressed in a unicorn outfit",
       keyword: "unilego",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'red',
+      favoriteFood: 'chocolate'
     },
     {
       url:
@@ -37,7 +45,9 @@ const images = [
       title: "Basically a unicorn",
       description: "A narwhal is basically a unicorn after all, right?",
       keyword: "narwhal",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'blue',
+      favoriteFood: 'fish'
     },
     {
       url:
@@ -45,7 +55,9 @@ const images = [
       title: "#truth",
       description: "The truth behind narwhals",
       keyword: "narwhal",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'blue',
+      favoriteFood: 'freedom'
     },
     {
       url:
@@ -53,7 +65,9 @@ const images = [
       title: "Baby Rhino",
       description: "This is actually a figurine but it looks kinda real",
       keyword: "rhino",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'grey',
+      favoriteFood: 'small grass'
     },
     {
       url:
@@ -62,7 +76,9 @@ const images = [
       description:
         "Three horns but still, horns. And who doesn't like The Land Before Time?",
       keyword: "triceratops",
-      horns: 3
+      horns: '3',
+      favoriteColor: 'black',
+      favoriteFood: 'leaves'
     },
     {
       url:
@@ -70,14 +86,18 @@ const images = [
       title: "Narwhal costume",
       description: "A woman wearing a blue narwhal costume",
       keyword: "narwhal",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'purple',
+      favoriteFood: 'chocolate'
     },
     {
       url: "https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg",
       title: "Rhino costume",
       description: "Mascots have to get their costumes somewhere",
       keyword: "rhino",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'grey',
+      favoriteFood: 'pizza'
     },
     {
       url:
@@ -85,7 +105,9 @@ const images = [
       title: "Believe",
       description: "I believe in unicorns, do you?",
       keyword: "unicorn",
-      horns: 1
+      horns: '1',
+      favoriteColor: 'pink',
+      favoriteFood: 'ice cream'
     },
     {
       url:
@@ -94,21 +116,27 @@ const images = [
       description:
         "These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?",
       keyword: "markhor",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'green',
+      favoriteFood: 'tacos'
     },
     {
       url: 'http://www.placekitten.com/200/200',
       title: "Baby markhor",
       description: "Even the babies are adorable",
       keyword: "markhor",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'green',
+      favoriteFood: 'tacos'
     },
     {
       url: 'http://www.placekitten.com/200/200',
       title: "Mouflon",
       description: "Those horns though",
       keyword: "mouflon",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'orange',
+      favoriteFood: 'oranges'
     },
     {
       url: 'http://www.placekitten.com/200/200',
@@ -116,7 +144,9 @@ const images = [
       description:
         "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
       keyword: "addax",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'white',
+      favoriteFood: 'white chocolate'
     },
     {
       url:
@@ -124,14 +154,18 @@ const images = [
       title: "Baby mouflon",
       description: "The cuteness that is a baby mouflon asleep",
       keyword: "mouflon",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'orange',
+      favoriteFood: 'baby oranges'
     },
     {
       url: 'http://www.placekitten.com/200/200',
       title: "Happy Jackson's Chameleon",
       description: "These are really common in Hawaii",
       keyword: "chameleon",
-      horns: 2
+      horns: '2',
+      favoriteColor: 'brown',
+      favoriteFood: 'catnip'
     },
     {
       url:
@@ -139,7 +173,9 @@ const images = [
       title: "Serious Jackson's Chameleon",
       description: "This one is very serious.",
       keyword: "chameleon",
-      horns: 3
+      horns: '3',
+      favoriteColor: 'dark brown',
+      favoriteFood: 'catnip'
     },
     {
       url:
@@ -147,7 +183,9 @@ const images = [
       title: "Horned Lizard",
       description: "Fave food: ants",
       keyword: "lizard",
-      horns: 100
+      horns: '100',
+      favoriteColor: 'red',
+      favoriteFood: 'people'
     },
     {
       url:
@@ -155,7 +193,9 @@ const images = [
       title: "Smaug",
       description: "Fan illustration of Smaug from 'The Hobbit'",
       keyword: "dragon",
-      horns: 100
+      horns: '100',
+      favoriteColor: 'gold',
+      favoriteFood: 'people'
     }
   ];
   
